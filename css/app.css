@@ -1,0 +1,143 @@
+/* Text and Font styles */
+
+h1 {
+    font-family: "Fira Sans", serif;
+    font-size: 2em;
+    margin: 1em 1rem;
+  }
+  
+  @media only screen and (min-width: 5em) {
+    p {
+      line-height: 1.5em;
+      color: #eee;
+    }
+    h2 {
+      border-bottom: 5px solid rgb(255, 255, 255);
+      color: #fff;
+      font-size: 2em;
+      font-family: "Arial", Sans-Serif;
+    }
+    h1 {
+      font-size: 7em;
+      margin: 1em 1rem 1em;
+    }
+  }
+  
+  /* Layout */
+  
+  section.activatedClass {
+    background: rgb(72, 2, 25);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  
+  .headerClass {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background: #fff;
+  }
+  
+  .classContainer {
+    padding: 1em;
+    text-align: left;
+  }
+  
+  main {
+    margin: 15vh 2em 15vh;
+  }
+  
+  .main-hero {
+    padding-top: 3em;
+    min-height: 30vh;
+  }
+  
+  section {
+    min-height: 60vh;
+    position: relative;
+  }
+  
+  /* Navbar*/
+  
+  .clickOnNavbarClass {
+    background: rgb(227, 206, 206);
+    color: rgb(86, 175, 175);
+  }
+  
+  .navbarClass ul {
+    padding: 10;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .navbarClass li {
+    display: inline-block;
+  }
+  
+  .navbarClass .menu__link {
+    font-weight: bold;
+    color: #000;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+  }
+  
+  @media only screen and (min-width: 35em) {
+    .classContainer {
+      max-width: 60em;
+      padding: 2em;
+    }
+  }
+  
+  /* Actions Style*/
+  
+  #buttonID:hover {
+    background-color: rgb(0, 89, 255);
+  }
+  
+  #buttonID {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  
+    background: linear-gradient(
+      0deg,
+      rgba(27, 10, 102, 0.301) 0%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  
+  /*Footer*/
+  
+  .classFooter {
+    background: rgb(22, 7, 7);
+    padding: 1em;
+  }
+  
+  .classFooter p {
+    color: #fff;
+  }
+  
+  /* General Inforamtion about HTLM*/
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: rgb(47, 194, 123);
+    background: linear-gradient(0deg, rgb(32, 2, 2) 0%, rgb(1, 7, 30) 100%);
+    margin: 0;
+    font-family: "Fira Sans", serif;
+    color: #fff;
+  }
+  
